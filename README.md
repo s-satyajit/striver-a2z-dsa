@@ -16,14 +16,20 @@ I’m following the exact order from the sheet, so it’s easy to track:
 
 
 ```plaintext
-01-Basics/
-│   ├── 01-input-output.cpp
-│   ├── 02-if-else.cpp
+01-basics/
+│   ├── things_to_know
+|   |        ├── 01_user_io.cpp
+|   |        ├── 02_datatype.cpp
+|   |        .
+|   |        .
+|   |        .
+│   ├── build_logic
+|   |        └── 01_pattern.cpp
 │   └── ...
 │
-02-Basic-Maths/
+02-sorting_techniques/
 │
-03-Basic-Recursion/
+03-arrays/
 │
 .
 .
@@ -42,8 +48,8 @@ I’m following the exact order from the sheet, so it’s easy to track:
 
 | Section                  | Problems Done |Total  |       Status   |
 |--------------------------|-------------- |-------|--------------- |
-| 01 - Basics              | ⏳ In Progress|   31  | ⏳ In Progress |
-| 02 - Sorting Techniques  | ⏳ In Progress|   7   | ⏳ In Progress |
+| 01_basics              | ⏳ In Progress|   31  | ⏳ In Progress |
+| 02_sorting_techniques  | ⏳ In Progress|   7   | ⏳ In Progress |
 | ...                      | ...           | ...   | ...            |
 
 *(repository will keep updating as I go)*
@@ -62,7 +68,7 @@ If you’re also doing this course:
 3. Run:
 
 ```bash
-    g++ 01_basics/things_to_know/user_io.cpp -o output
+    g++ 01_basics/things_to_know/01_user_io.cpp -o output
     ./output
 ```
 
