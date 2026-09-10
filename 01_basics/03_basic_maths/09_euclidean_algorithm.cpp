@@ -9,7 +9,7 @@ class Solution {
             else n2=n2%n1;
         }
         if(n1==0) return n2;
-        else return n1;
+        else return n1; 
     }
 };
 
